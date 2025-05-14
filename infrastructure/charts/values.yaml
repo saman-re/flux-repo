@@ -1,0 +1,16 @@
+frontend:
+  #image: "ghcr.io/your-org/blazor-frontend:latest"
+  image: "nginxdemos/hello"
+  replicaCount: 1
+  sentryDsn: "<your_sentry_dsn_here>"
+  release: "frontend-release"
+
+backend:
+  #image: "ghcr.io/your-org/blazor-backend:latest"
+  image: "nginxdemos/hello"
+  replicaCount: 1
+
+ingress:
+  enabled: true
+  hostname: "nl-rv.maxtld.com"
+

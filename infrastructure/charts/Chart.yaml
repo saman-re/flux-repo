@@ -1,0 +1,6 @@
+apiVersion: v2
+name: blazor-workshop
+description: Helm chart for Blazor Workshop app (frontend + backend)
+version: 0.1.0
+appVersion: "1.0"
+

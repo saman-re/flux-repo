@@ -8,7 +8,7 @@ spec:
   interval: 1m
   chart:
     spec:
-      chart: ../charts/blazor-workshop-chart
+      chart: infrastructure/charts/blazor-workshop-chart
       sourceRef:
         kind: GitRepository
         name: flux-system
